@@ -22,24 +22,19 @@
 
 ### Подготовка данных
 * Получен excel-файл с вопросами по Python 
-* Проанализированы следующие источники:
-*https://github.com/yakimka/python_interview_questions?tab=readme-ov-file*
-
-*https://easyoffer.ru/rating/python_developer*
-
+* Проанализированы следующие источники:  
+*https://github.com/yakimka/python_interview_questions?tab=readme-ov-file*  
+*https://easyoffer.ru/rating/python_developer*  
 *https://cloud.vk.com/blog/spisok-voprosov-s-sobesedovaniy-python-dlya-data-sayentistov* 
 * Обогатили файл ответами, получили обратную связь на файл от заказчика, откорректировали 
 * получившийся файл для обучения модели расположен в папке ["data"](https://github.com/Apanni/sf_data_science/tree/ba837e5011ed1ee2fe98142d5206e78543de59b1/practice/data)
 
 ### Подготовка модели 
 * Для решения поставленной задачи была выбрана модель Bert
-* Логика работы модели:
- модель выдает респонденту случайный вопрос
-
- респондент вводит ответ
-
- обработка ответа моделью
- 
+* Логика работы модели:  
+ модель выдает респонденту случайный вопрос  
+ респондент вводит ответ  
+ обработка ответа моделью  
  вывод результаты для респондента в формате "Ответ верный", "Ответ неверный"
 * Модель размещана в папке ["Model"](https://github.com/Apanni/sf_data_science/tree/ba837e5011ed1ee2fe98142d5206e78543de59b1/practice/model)
 
